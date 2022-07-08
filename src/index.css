@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cfont-primary: #424141;
+  --twitter-color: #65C3C8;
+  --instagram-color: #804FC0;
+  --tiktok-color: #D34F62;
+}
+
+.font-anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.font-dosis {
+  font-family: 'Dosis', sans-serif;
+}
+
+.font-color-primary {
+  color: var(--cfont-primary);
+}
+
+.black-transparent-bg-30 {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.bg-twitter {
+  background-color: var(--twitter-color);
+}
+
+.bg-instagram {
+  background-color: var(--instagram-color);
+}
+
+.bg-tiktok {
+  background-color: var(--tiktok-color);
+}
+
+.font-transparent {
+  color: rgb(66, 65, 65, 0.6);
+}
+
+.mt-auto {
+  margin-top: auto !important;
+}
+
+.safe-padding {
+  padding:
+    env(safe-area-inset-top, 20px)
+    env(safe-area-inset-right, 20px)
+    env(safe-area-inset-bottom, 20px)
+    env(safe-area-inset-left, 20px) !important;
+}
+
+
+body {
+  overflow: hidden;
+}
+
+html{
+  scroll-behavior:smooth
+}
+
+ html, body {
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+}
+
