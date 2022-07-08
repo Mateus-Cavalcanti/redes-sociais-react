@@ -7,7 +7,7 @@ function Textbox(props) {
     classvar += props.classesName
   }
 
-  let textSize = "text-1xl"
+  let textSize = "2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-1xl text-1xl"
 
   if (!!props.textSize) {
     textSize = props.textSize
