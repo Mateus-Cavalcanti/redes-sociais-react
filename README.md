@@ -1,1 +1,2 @@
-# Yes, i will refactor that code gore.
+# School Project
+Lang: PT_BR
